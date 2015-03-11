@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE4FF8421AB046BF00F64071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4FF8411AB046BF00F64071 /* main.m */; };
+		EE4FF8451AB046BF00F64071 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4FF8441AB046BF00F64071 /* AppDelegate.m */; };
+		EE4FF8481AB046BF00F64071 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4FF8471AB046BF00F64071 /* ViewController.m */; };
+		EE4FF84B1AB046BF00F64071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4FF8491AB046BF00F64071 /* Main.storyboard */; };
+		EE4FF84D1AB046BF00F64071 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4FF84C1AB046BF00F64071 /* Images.xcassets */; };
+		EE4FF8501AB046BF00F64071 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE4FF84E1AB046BF00F64071 /* LaunchScreen.xib */; };
+		EE4FF85C1AB046BF00F64071 /* CoreMediaFuncManagerVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4FF85B1AB046BF00F64071 /* CoreMediaFuncManagerVCTests.m */; };
+		EE4FF8681AB0474700F64071 /* CoreMediaFuncManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4FF8671AB0474700F64071 /* CoreMediaFuncManagerVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4FF8561AB046BF00F64071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4FF8341AB046BF00F64071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4FF83B1AB046BF00F64071;
+			remoteInfo = CoreMediaFuncManagerVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE4FF83C1AB046BF00F64071 /* CoreMediaFuncManagerVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMediaFuncManagerVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4FF8401AB046BF00F64071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4FF8411AB046BF00F64071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE4FF8431AB046BF00F64071 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE4FF8441AB046BF00F64071 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE4FF8461AB046BF00F64071 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE4FF8471AB046BF00F64071 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE4FF84A1AB046BF00F64071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4FF84C1AB046BF00F64071 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE4FF84F1AB046BF00F64071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE4FF8551AB046BF00F64071 /* CoreMediaFuncManagerVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMediaFuncManagerVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4FF85A1AB046BF00F64071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4FF85B1AB046BF00F64071 /* CoreMediaFuncManagerVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreMediaFuncManagerVCTests.m; sourceTree = "<group>"; };
+		EE4FF8661AB0474700F64071 /* CoreMediaFuncManagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreMediaFuncManagerVC.h; sourceTree = "<group>"; };
+		EE4FF8671AB0474700F64071 /* CoreMediaFuncManagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreMediaFuncManagerVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4FF8391AB046BF00F64071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4FF8521AB046BF00F64071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE4FF8331AB046BE00F64071 = {
+			isa = PBXGroup;
+			children = (
+				EE4FF83E1AB046BF00F64071 /* CoreMediaFuncManagerVC */,
+				EE4FF8581AB046BF00F64071 /* CoreMediaFuncManagerVCTests */,
+				EE4FF83D1AB046BF00F64071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4FF83D1AB046BF00F64071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FF83C1AB046BF00F64071 /* CoreMediaFuncManagerVC.app */,
+				EE4FF8551AB046BF00F64071 /* CoreMediaFuncManagerVCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4FF83E1AB046BF00F64071 /* CoreMediaFuncManagerVC */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FF8651AB0473100F64071 /* CoreMediaFuncManagerVC */,
+				EE4FF8431AB046BF00F64071 /* AppDelegate.h */,
+				EE4FF8441AB046BF00F64071 /* AppDelegate.m */,
+				EE4FF8461AB046BF00F64071 /* ViewController.h */,
+				EE4FF8471AB046BF00F64071 /* ViewController.m */,
+				EE4FF8491AB046BF00F64071 /* Main.storyboard */,
+				EE4FF84C1AB046BF00F64071 /* Images.xcassets */,
+				EE4FF84E1AB046BF00F64071 /* LaunchScreen.xib */,
+				EE4FF83F1AB046BF00F64071 /* Supporting Files */,
+			);
+			path = CoreMediaFuncManagerVC;
+			sourceTree = "<group>";
+		};
+		EE4FF83F1AB046BF00F64071 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FF8401AB046BF00F64071 /* Info.plist */,
+				EE4FF8411AB046BF00F64071 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE4FF8581AB046BF00F64071 /* CoreMediaFuncManagerVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FF85B1AB046BF00F64071 /* CoreMediaFuncManagerVCTests.m */,
+				EE4FF8591AB046BF00F64071 /* Supporting Files */,
+			);
+			path = CoreMediaFuncManagerVCTests;
+			sourceTree = "<group>";
+		};
+		EE4FF8591AB046BF00F64071 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FF85A1AB046BF00F64071 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE4FF8651AB0473100F64071 /* CoreMediaFuncManagerVC */ = {
+			isa = PBXGroup;
+			children = (
+				EE4FF8661AB0474700F64071 /* CoreMediaFuncManagerVC.h */,
+				EE4FF8671AB0474700F64071 /* CoreMediaFuncManagerVC.m */,
+			);
+			path = CoreMediaFuncManagerVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4FF83B1AB046BF00F64071 /* CoreMediaFuncManagerVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4FF85F1AB046BF00F64071 /* Build configuration list for PBXNativeTarget "CoreMediaFuncManagerVC" */;
+			buildPhases = (
+				EE4FF8381AB046BF00F64071 /* Sources */,
+				EE4FF8391AB046BF00F64071 /* Frameworks */,
+				EE4FF83A1AB046BF00F64071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMediaFuncManagerVC;
+			productName = CoreMediaFuncManagerVC;
+			productReference = EE4FF83C1AB046BF00F64071 /* CoreMediaFuncManagerVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE4FF8541AB046BF00F64071 /* CoreMediaFuncManagerVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4FF8621AB046BF00F64071 /* Build configuration list for PBXNativeTarget "CoreMediaFuncManagerVCTests" */;
+			buildPhases = (
+				EE4FF8511AB046BF00F64071 /* Sources */,
+				EE4FF8521AB046BF00F64071 /* Frameworks */,
+				EE4FF8531AB046BF00F64071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4FF8571AB046BF00F64071 /* PBXTargetDependency */,
+			);
+			name = CoreMediaFuncManagerVCTests;
+			productName = CoreMediaFuncManagerVCTests;
+			productReference = EE4FF8551AB046BF00F64071 /* CoreMediaFuncManagerVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4FF8341AB046BF00F64071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = muxi;
+				TargetAttributes = {
+					EE4FF83B1AB046BF00F64071 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EE4FF8541AB046BF00F64071 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EE4FF83B1AB046BF00F64071;
+					};
+				};
+			};
+			buildConfigurationList = EE4FF8371AB046BF00F64071 /* Build configuration list for PBXProject "CoreMediaFuncManagerVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4FF8331AB046BE00F64071;
+			productRefGroup = EE4FF83D1AB046BF00F64071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4FF83B1AB046BF00F64071 /* CoreMediaFuncManagerVC */,
+				EE4FF8541AB046BF00F64071 /* CoreMediaFuncManagerVCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4FF83A1AB046BF00F64071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4FF84B1AB046BF00F64071 /* Main.storyboard in Resources */,
+				EE4FF8501AB046BF00F64071 /* LaunchScreen.xib in Resources */,
+				EE4FF84D1AB046BF00F64071 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4FF8531AB046BF00F64071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4FF8381AB046BF00F64071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4FF8681AB0474700F64071 /* CoreMediaFuncManagerVC.m in Sources */,
+				EE4FF8481AB046BF00F64071 /* ViewController.m in Sources */,
+				EE4FF8451AB046BF00F64071 /* AppDelegate.m in Sources */,
+				EE4FF8421AB046BF00F64071 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4FF8511AB046BF00F64071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4FF85C1AB046BF00F64071 /* CoreMediaFuncManagerVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE4FF8571AB046BF00F64071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4FF83B1AB046BF00F64071 /* CoreMediaFuncManagerVC */;
+			targetProxy = EE4FF8561AB046BF00F64071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE4FF8491AB046BF00F64071 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4FF84A1AB046BF00F64071 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4FF84E1AB046BF00F64071 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4FF84F1AB046BF00F64071 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4FF85D1AB046BF00F64071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE4FF85E1AB046BF00F64071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4FF8601AB046BF00F64071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreMediaFuncManagerVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE4FF8611AB046BF00F64071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreMediaFuncManagerVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE4FF8631AB046BF00F64071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreMediaFuncManagerVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMediaFuncManagerVC.app/CoreMediaFuncManagerVC";
+			};
+			name = Debug;
+		};
+		EE4FF8641AB046BF00F64071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CoreMediaFuncManagerVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreMediaFuncManagerVC.app/CoreMediaFuncManagerVC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4FF8371AB046BF00F64071 /* Build configuration list for PBXProject "CoreMediaFuncManagerVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4FF85D1AB046BF00F64071 /* Debug */,
+				EE4FF85E1AB046BF00F64071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4FF85F1AB046BF00F64071 /* Build configuration list for PBXNativeTarget "CoreMediaFuncManagerVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4FF8601AB046BF00F64071 /* Debug */,
+				EE4FF8611AB046BF00F64071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE4FF8621AB046BF00F64071 /* Build configuration list for PBXNativeTarget "CoreMediaFuncManagerVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4FF8631AB046BF00F64071 /* Debug */,
+				EE4FF8641AB046BF00F64071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4FF8341AB046BF00F64071 /* Project object */;
+}
