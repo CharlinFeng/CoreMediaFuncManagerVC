@@ -57,15 +57,6 @@
  */
 +(void)call:(NSString *)no inViewController:(UIViewController *)vc failBlock:(void(^)())failBlock{
     
-    CoreMediaFuncManagerVC *mediaVC=[[CoreMediaFuncManagerVC alloc] init];
-    
-    [vc addChildViewController:mediaVC];
-    
-    mediaVC.view.frame=CGRectZero;
-    mediaVC.view.alpha=.0f;
-    
-    [vc.view addSubview:mediaVC.view];
-    
     //拨打电话
     NSURL *url=[NSURL URLWithString:[NSString stringWithFormat:@"tel://%@",no]];
     
@@ -74,6 +65,15 @@
     if(!canOpen){//不能打开
         if(failBlock!=nil) failBlock(); return;
     }
+    
+    CoreMediaFuncManagerVC *mediaVC=[[CoreMediaFuncManagerVC alloc] init];
+    
+    [vc addChildViewController:mediaVC];
+    
+    mediaVC.view.frame=CGRectZero;
+    mediaVC.view.alpha=.0f;
+    
+    [vc.view addSubview:mediaVC.view];
     
     //打电话
     NSURLRequest *request=[NSURLRequest requestWithURL:url];
